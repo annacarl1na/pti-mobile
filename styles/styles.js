@@ -1,77 +1,64 @@
 import { StyleSheet } from 'react-native';
 
-// Definindo os estilos para os componentes da aplicação
+
+
 const styles = StyleSheet.create({
-  
-  // Estilo do container principal
   container: {
-    flex: 1, // Ocupará toda a tela disponível
-    padding: 16, // Espaçamento interno de 16 unidades
-    justifyContent: 'center', // Centraliza os conteúdos verticalmente
-    backgroundColor: '#ffffff', // Cor de fundo branca
-    fontFamily: 'lucida grande', // Fonte utilizada no texto
+    flex: 1,
+    padding: 16,
+    justifyContent: 'center',
+    backgroundColor: '#f0f8ff',
+    fontFamily: 'lucida grande',
+    
   },
-
-  // Estilo para o título principal
   title: {
-    fontSize: 24, // Tamanho da fonte
-    fontWeight: 'bold', // Negrito
-    marginBottom: 16, // Espaçamento inferior de 16 unidades
-    textAlign: 'center', // Centraliza o texto horizontalmente
-    color: '#333', // Cor sutil moderna para o texto
-    fontFamily: 'lucida grande', // Fonte utilizada
-  },
 
-  // Estilo para o nome
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 16,
+    textAlign: 'center',
+    color: '#333', // Modern subtle color
+    fontFamily: 'lucida grande',
+  },
   nome: {
-    fontSize: 28, // Tamanho maior para o nome
-    fontWeight: 'bold', // Negrito
-    color: '#1E90FF', // Cor azul
-    marginBottom: 160, // Espaçamento inferior grande para posicionar o nome
-    textAlign: 'center', // Centraliza o texto
-    fontFamily: 'tahoma', // Fonte diferente usada aqui
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#1E90FF', // Slightly softer black
+    marginBottom: 160,
+    textAlign: 'center',
+    fontFamily: 'tahoma', 
   },
-
-  // Estilo para os inputs de texto
   input: {
-    height: 40, // Altura do input
-    borderColor: '#ccc', // Cor da borda cinza claro
-    borderWidth: 1, // Espessura da borda
-    borderRadius: 8, // Bordas arredondadas para um visual mais moderno
-    marginBottom: 12, // Espaçamento inferior de 12 unidades
-    paddingHorizontal: 10, // Espaçamento interno nas laterais
+    height: 40,
+    borderColor: '#ccc',
+    borderWidth: 1,
+    borderRadius: 8, // Rounded corners for a modern look
+    marginBottom: 12,
+    paddingHorizontal: 10,
   },
-
-  // Estilo para o botão
   button: {
-    backgroundColor: '#1E90FF', // Cor de fundo azul
-    padding: 12, // Espaçamento interno de 12 unidades
-    borderRadius: 8, // Bordas arredondadas para visual moderno
-    alignItems: 'center', // Alinha o texto centralizado
-    marginBottom: 12, // Espaçamento inferior de 12 unidades
+    backgroundColor: '#1E90FF', // Slightly different shade of blue
+    padding: 12,
+    borderRadius: 8, // More rounded for a modern feel
+    alignItems: 'center',
+    marginBottom: 12,
   },
-
-  // Estilo para o texto do botão
   buttonText: {
-    color: '#FFF', // Cor branca para o texto
-    fontWeight: 'bold', // Negrito
-    fontSize: 16, // Tamanho do texto para melhor legibilidade
+    color: '#FFF',
+    fontWeight: 'bold',
+    fontSize: 16, // Added for better readability
   },
-
-  // Estilo para links
   link: {
-    color: '#1E90FF', // Cor azul para o link
-    textAlign: 'center', // Centraliza o texto
-    textDecorationLine: 'underline', // Sublinhar o link
+    color: '#1E90FF',
+    textAlign: 'center',
+    textDecorationLine: 'underline', // Added for link styling
   },
-
-  // Estilo para cada item de paciente
   patientItem: {
-    padding: 10, // Espaçamento interno de 10 unidades
-    backgroundColor: '#FFF', // Fundo branco
-    borderBottomWidth: 1, // Borda inferior de 1 unidade
-    borderColor: '#ddd', // Cor da borda cinza claro
-    borderRadius: 8, // Bordas arredondadas para um visual mais suave
+    padding: 10,
+    backgroundColor: '#FFF',
+    borderBottomWidth: 1,
+    borderColor: '#ddd',
+    borderRadius: 8, // Added for a softer look
   },
 });
 
